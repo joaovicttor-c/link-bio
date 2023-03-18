@@ -16,7 +16,7 @@ body {
 } 
 
 body {
-    background: url(./assets/background.jpg) no-repeat center center fixed;
+    background: url(./assets/background-mobile.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -90,5 +90,10 @@ ul a {
     text-decoration: none;
 }
 
-
+@media screen and (min-width: 768px) {
+    body {
+        background: url(./assets/background.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
 
